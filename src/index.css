@@ -1,0 +1,91 @@
+:root {
+  box-sizing: border-box;
+
+  /* Core Colors */
+  --color-bg: #ffffff;
+  --color-text: #000000;
+
+  /* Dot Matrix */
+  --color-dot-rgb: 0, 0, 0;
+
+  /* Grid */
+  --color-grid-rgb: 0, 0, 0;
+  --color-grid-alpha: 0.05;
+
+  /* Accent */
+  --color-accent: #4f9cff;
+
+  --vignette-strength: 0.10;
+
+  /* Font Families */
+  --font-primary: "Inter", sans-serif;
+  --font-heading: var(--font-primary);
+  --font-body: var(--font-primary);
+
+  --fs-display: 4rem;
+  --fs-h1: 3rem;
+  --fs-h2: 2rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1rem;
+  --fs-small: 0.9rem;
+
+
+
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+main {
+  position: relative;
+  z-index: 10;
+}
+
+/* main::before {
+
+  content: "";
+
+  position: fixed;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 1200px;
+  height: 1200px;
+
+  pointer-events: none;
+
+  z-index: -1;
+
+  background:
+    radial-gradient(circle,
+      rgba(0, 0, 0, 0.04),
+      transparent 70%);
+} */
+
+#root {
+
+  /* background-color: rgb(255, 0, 0); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: -1000;
+
+}

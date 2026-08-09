@@ -1,0 +1,60 @@
+.section {
+
+
+    width: min(1100px, calc(100vw - 2rem));
+
+    margin-inline: auto;
+
+    margin-top: 2rem;
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 2.5rem 4rem;
+
+    border-radius: 32px;
+
+    background:
+        linear-gradient(135deg,
+            rgba(255, 255, 255, 0.72),
+            rgba(255, 255, 255, 0.55));
+
+    backdrop-filter:
+        blur(10px);
+
+    border:
+        1px solid rgba(255, 255, 255, 0.35);
+
+
+    box-shadow:
+        4px 4px 4px rgba(0, 0, 0, 0.5),
+        12px 16px 32px rgba(0, 0, 0, 0.3),
+        24px 36px 64px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+/* .section::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    border-radius: inherit;
+
+    background-image:
+        url("../../../public/clean-gray-paper.png");
+
+    background-size: 180px;
+
+    opacity: 0.5;
+
+    mix-blend-mode: multiply;
+    background-size: 4px 4px;
+} */
